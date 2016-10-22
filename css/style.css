@@ -1,0 +1,116 @@
+nav {
+  background-color: black;
+  padding-left: 10px
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  margin-top: 40px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+
+}
+/*header*/
+header{
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  height :500px;
+  background-position: center;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 140px
+}
+
+header h1 {
+  color:white;
+
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  background-color: #1bbc9b;
+  display:block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.features{
+  text-align: center;
+  padding :30px;
+}
+
+.features article {
+  width :25%;
+  float: left;
+}
+
+article a{
+  color :#1bbc9b;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px 0;
+  border: 1px solid #1bbc9b;
+  border-radius: 10px;
+  width: 60%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom:10px;
+}
+
+.mockup {
+  clear: both;
+  background: black;
+  background-image: url(../images/mockup-bg.jpg);
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  background-attachment: fixed;
+
+}
+
+.client, footer {
+  background: #1bbc9b;
+  text-align: center;
+  color:white;
+  font-family: open-sans:cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.client ul li, footer ul li{
+  display: inline;
+}
+
+.client a{
+  background: white;
+  color :#1bbc9b;
+  display: block;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin : 0 auto;
+  text-decoration: none;
+
+
+
+
+}
+
+footer {
+  background: black;
+}
